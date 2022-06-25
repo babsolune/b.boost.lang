@@ -3,7 +3,7 @@
  * @copyright   &copy; 2005-2022 PHPBoost
  * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      Julien BRISWALTER <j1.seth@phpboost.com>
- * @version     PHPBoost 6.0 - last update: 2022 03 08
+ * @version     PHPBoost 6.0 - last update: 2022 06 21
  * @since       PHPBoost 4.1 - 2015 02 25
  * @contributor Arnaud GENET <elenwii@phpboost.com>
  * @contributor Sebastien LARTIGUE <babsolune@phpboost.com>
@@ -26,7 +26,10 @@ $lang['forum.authorizations.unlimited.topics.tracking'] = 'Deactivate topics sub
 $lang['forum.authorizations.multiple.posts']            = 'Users authorized to post several consecutive messages';
 
 // Categories
-$lang['forum.category.status.locked'] = 'Locked';
+$lang['forum.category.status.locked']    = 'Locked';
+$lang['forum.category.icon']             = 'Font-Awesome icon';
+$lang['forum.category.icon.clue']        = 'Displayed on forum pages only if no thumbnail is selected.';
+$lang['forum.category.icon.placeholder'] = 'fa{b,r,s,t} fa-{icon-name} fa-{options} ...';
 
 // Configuration
 $lang['forum.config.forum.name']                   = 'Forum name';
@@ -39,7 +42,7 @@ $lang['forum.config.enable.edit.marker']           = 'Display last edited time i
 $lang['forum.config.enable.multiple.posts']        = 'Allow members to post multiple consecutive messages';
 $lang['forum.config.enable.multiple.posts.clue']   = 'If the option is unchecked, the last message of the user will automatically be completed with the new posted content';
 $lang['forum.config.display.connexion.form']       = 'Display login form';
-$lang['forum.config.display.thumbnails']            = 'Display thumbnails';
+$lang['forum.config.display.thumbnails']           = 'Display category thumbnails';
 $lang['forum.config.display.message.before.topic'] = 'Display message before topic title';
 $lang['forum.config.message.before.topic']         = 'Message before topic title';
 $lang['forum.config.status.message.unsolved']      = 'Message explanation to members if topic status is unsolved';
@@ -154,11 +157,13 @@ $lang['forum.reload.unread.messages'] = 'Reload unread messages';
 $lang['forum.mark.topics.as.read']    = 'Mark all topics as read';
 
 // Moderation
-$lang['forum.moderation.forum'] = 'Forum moderation';
-$lang['forum.for.selection'] = 'For the selection';
+$lang['forum.moderation.forum']       = 'Forum moderation';
+$lang['forum.for.selection']          = 'For the selection';
 $lang['forum.change.issue.status.to'] = 'Set status: %s';
-$lang['forum.default.issue.status'] = 'Set default status';
-$lang['forum.no.moderation'] = 'No action';
+$lang['forum.default.issue.status']   = 'Set default status';
+$lang['forum.no.moderation']          = 'No action';
+$lang['forum.set.as.selected']        = 'Set as best answer';
+$lang['forum.set.as.unselected']      = 'Unset as best answer';
     // Reports
         // User reports
 $lang['forum.reports.management']        = 'Reports management';
@@ -216,11 +221,12 @@ $lang['forum.question']           = 'Question';
 $lang['forum.answers']            = 'Answers';
 $lang['forum.poll.type']          = 'Kind of poll';
 $lang['forum.open.poll.menu']     = 'Open poll menu';
-$lang['forum.close.poll.menu']     = 'Close poll menu if it is empty';
+$lang['forum.close.poll.menu']    = 'Close poll menu if it is empty';
 $lang['forum.simple.answer']      = 'Single answer';
 $lang['forum.multiple.answer']    = 'Multiple answer';
 $lang['forum.delete.poll']        = 'Delete poll';
 $lang['forum.require.poll.title'] = 'Please set a title for the poll!';
+$lang['forum.poll.results']       = 'Poll results';
 
 // Ranks
 $lang['forum.ranks.management']             = 'Gestion des rangs du forum';

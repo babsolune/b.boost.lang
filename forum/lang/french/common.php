@@ -3,7 +3,7 @@
  * @copyright   &copy; 2005-2022 PHPBoost
  * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      Julien BRISWALTER <j1.seth@phpboost.com>
- * @version     PHPBoost 6.0 - last update: 2022 03 08
+ * @version     PHPBoost 6.0 - last update: 2022 06 21
  * @since       PHPBoost 4.1 - 2015 02 25
  * @contributor Arnaud GENET <elenwii@phpboost.com>
  * @contributor Sebastien LARTIGUE <babsolune@phpboost.com>
@@ -26,7 +26,10 @@ $lang['forum.authorizations.unlimited.topics.tracking'] = 'Désactivation de la 
 $lang['forum.authorizations.multiple.posts']            = 'Utilisateurs autorisés à poster plusieurs messages consécutifs';
 
 // Categories
-$lang['forum.category.status.locked'] = 'Verrouillé';
+$lang['forum.category.status.locked']    = 'Verrouillé';
+$lang['forum.category.icon']             = 'Icône Font-Awesome';
+$lang['forum.category.icon.clue']        = 'Ne s\'affiche dans le forum que si aucune vignette n\'est sélectionnée.';
+$lang['forum.category.icon.placeholder'] = 'fa{b,r,s,t} fa-{icon-name} fa-{options} ...';
 
 // Configuration
 $lang['forum.config.forum.name']                   = 'Nom du forum';
@@ -39,7 +42,7 @@ $lang['forum.config.enable.edit.marker']           = 'Marqueurs d\'édition des 
 $lang['forum.config.enable.multiple.posts']        = 'Autoriser les utilisateurs à poster plusieurs messages consécutifs';
 $lang['forum.config.enable.multiple.posts.clue']   = 'Si l\'option est désactivée, le dernier message de l\'utilisateur sera automatiquement complété avec le nouveau contenu lors de l\'ajout d\'un message';
 $lang['forum.config.display.connexion.form']       = 'Afficher le formulaire de connexion';
-$lang['forum.config.display.thumbnails']           = 'Afficher les vignettes';
+$lang['forum.config.display.thumbnails']           = 'Afficher les vignettes de catégorie';
 $lang['forum.config.display.message.before.topic'] = 'Afficher un message devant le titre du topic';
 $lang['forum.config.message.before.topic']         = 'Message devant le titre du topic';
 $lang['forum.config.status.message.unsolved']      = 'Message devant le titre du topic si statut non changé';
@@ -159,6 +162,8 @@ $lang['forum.for.selection']          = 'Pour la sélection';
 $lang['forum.change.issue.status.to'] = 'Mettre le statut: %s';
 $lang['forum.default.issue.status']   = 'Mettre le statut par défaut';
 $lang['forum.no.moderation']          = 'Aucune action';
+$lang['forum.set.as.selected']        = 'Sélectionner comme meilleure réponse';
+$lang['forum.set.as.unselected']      = 'Désélectionner comme meilleure réponse';
     // Reports
         // User reports
 $lang['forum.reports.management']        = 'Gestion des signalements';
@@ -219,6 +224,7 @@ $lang['forum.simple.answer']      = 'Réponse simple';
 $lang['forum.multiple.answer']    = 'Réponses multiples';
 $lang['forum.delete.poll']        = 'Supprimer le sondage';
 $lang['forum.require.poll.title'] = 'Veuillez entrer un titre pour le sondage !';
+$lang['forum.poll.results']       = 'Résultats du sondage';
 
 // Ranks
 $lang['forum.ranks.management']             = 'Gestion des rangs du forum';
