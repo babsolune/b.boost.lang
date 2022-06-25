@@ -3,9 +3,10 @@
  * @copyright   &copy; 2005-2022 PHPBoost
  * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      xela <xela@phpboost.com>
- * @version     PHPBoost 6.0 - last update: 2021 07 02
+ * @version     PHPBoost 6.0 - last update: 2022 06 15
  * @since       PHPBoost 6.0 - 2020 05 14
  * @contributor Sebastien LARTIGUE <babsolune@phpboost.com>
+ * @contributor Julien BRISWALTER <j1.seth@phpboost.com>
 */
 
 #####################################################
@@ -18,10 +19,12 @@ $lang['poll.no.vote']     = 'Personne n\'a voté pour l\'instant.';
 
 // Configuration
 $lang['poll.config.advanced.configuration']          = 'Configuration avancée';
-$lang['poll.config.mini.module.selected.items']      = 'Sélectionner les éléments à afficher';
-$lang['poll.config.mini.module.selected.items.clue'] = 'Les éléments seront affichés aléatoirement.';
+$lang['poll.config.mini.module.selected.items']      = 'Sélectionner les éléments à afficher dans le menu';
+$lang['poll.config.mini.module.selected.items.clue'] = 'Les éléments seront affichés aléatoirement';
 $lang['poll.config.cookie.name']                     = 'Nom du cookie';
+$lang['poll.config.cookie.name.clue']                = 'Mis en place quand l\'utilisateur a voté';
 $lang['poll.config.cookie.lenght']                   = 'Durée de validité du cookie';
+$lang['poll.config.cookie.lenght.clue']              = 'Nombre de jours pendant lequel le cookie est valide';
 $lang['poll.config.vote.authorization']              = 'Autorisation de voter';
 $lang['poll.config.votes.result.authorization']      = 'Autorisation d\'afficher le résultat des votes';
 
@@ -33,7 +36,7 @@ $lang['poll.form.multiple']                  = 'Multiple';
 $lang['poll.form.answers']                   = 'Réponses';
 $lang['poll.form.answer.placeholder']        = 'Réponse';
 $lang['poll.form.close.poll']                = 'Clore le sondage';
-$lang['poll.form.display.poll.in.mini']      = 'Afficher le sondage dans le mini module';
+$lang['poll.form.display.poll.in.mini']      = 'Afficher le sondage dans le menu Sondages';
 $lang['poll.form.countdown.parameters']      = 'Paramètres du décompte';
 $lang['poll.form.countdown.parameters.clue'] = 'Possibilité d\'afficher un décompte avec jours-h-mn-s';
 $lang['poll.form.countdown.without.seconds'] = 'Décompte sans secondes';
@@ -56,12 +59,12 @@ $lang['poll.mini.more']                 = 'Plus de sondages';
 $lang['poll.mini.participate.single']   = 'Participez au sondage suivant : ';
 $lang['poll.mini.participate.multiple'] = 'Participez aux sondages suivants : ';
 $lang['poll.mini.no.poll.available']    = 'Pas de sondage disponible';
-$lang['poll.mini.have.to.choose']       = 'Faîtes votre choix parmi les réponses';
+$lang['poll.mini.have.to.choose']       = 'Faites votre choix parmi les réponses';
 $lang['poll.mini.form.error']           = 'Erreur dans le formulaire';
 
 // Message helper
 $lang['poll.message.no.mini']       = 'Cette option est désactivée car vous n\'avez aucun sondage déclaré dans le mini module.';
-$lang['completed.item'] 	    = 'Ce sondage est clos';
+$lang['completed.item'] 	        = 'Ce sondage est clos';
 $lang['poll.message.not.allowed']   = 'Vous n\'avez pas l\'autorisation de voter.';
 $lang['poll.message.already.voted'] = 'Votre vote est enregistré.';
 
