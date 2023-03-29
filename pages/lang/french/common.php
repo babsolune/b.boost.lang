@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright   &copy; 2005-2022 PHPBoost
+ * @copyright   &copy; 2005-2023 PHPBoost
  * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      Benoit SAUTEL <ben.popeye@phpboost.com>
  * @version     PHPBoost 6.0 - last update: 2021 03 17
@@ -17,10 +17,10 @@
 
 $lang['an.item'] = 'une page';
 
-$lang['items.reorder'] = 'Réorganiser les pages';
+$lang['items.reorder']    = 'Réorganiser les pages';
 $lang['items.reordering'] = 'Réorganisation des pages';
 
 // Configuration
-$lang['config.left.column.disabled'] = 'Masquer les blocs de gauche';
+$lang['config.left.column.disabled']  = 'Masquer les blocs de gauche';
 $lang['config.right.column.disabled'] = 'Masquer les blocs de droite';
 ?>

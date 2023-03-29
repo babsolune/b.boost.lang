@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright   &copy; 2005-2022 PHPBoost
+ * @copyright   &copy; 2005-2023 PHPBoost
  * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      Julien BRISWALTER <j1.seth@phpboost.com>
  * @version     PHPBoost 6.0 - last update: 2021 12 01
@@ -15,7 +15,7 @@
 ####################################################
 
 // Typogrphie
-$lang['sandbox.typography']          = 'Typography';
+$lang['sandbox.typography']         = 'Typography';
 $lang['sandbox.component.titles']   = 'Titles';
 $lang['sandbox.component.title']    = 'Title';
 $lang['sandbox.component.items']    = 'Elements';

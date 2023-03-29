@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright   &copy; 2005-2022 PHPBoost
+ * @copyright   &copy; 2005-2023 PHPBoost
  * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      Julien BRISWALTER <j1.seth@phpboost.com>
  * @version     PHPBoost 6.0 - last update: 2021 12 01
@@ -54,15 +54,15 @@ $lang['sandbox.cssmenu.warning'] = '
 
 // Links
 $lang['sandbox.menu.management'] = 'Menus managment';
-$lang['sandbox.menu.link.icon'] = 'Item with icon';
-$lang['sandbox.menu.link.img']  = 'Item with picture';
-$lang['sandbox.menu.link']      = 'List item';
-$lang['sandbox.menu.panel']     = 'Panel';
+$lang['sandbox.menu.link.icon']  = 'Item with icon';
+$lang['sandbox.menu.link.img']   = 'Item with picture';
+$lang['sandbox.menu.link']       = 'List item';
+$lang['sandbox.menu.panel']      = 'Panel';
 // Basic
 $lang['sandbox.menu.basic'] = 'Links menu';
 // Accordion
 $lang['sandbox.menu.accordion.title']   = 'Accordion menu';
-$lang['sandbox.menu.accordion.options'] = 'Change css class <code class="language-css">basic</code> to <code class="language-css">siblings</code> to modify panel opening behaviour and close all panels when open a new one.';
+$lang['sandbox.menu.accordion.options'] = 'Change css class <code class="precode">multiple-accordion</code> to <code class="precode">single-accordion</code> to modify panel opening behaviour and close all panels when open a new one.';
 $lang['sandbox.menu.accordion.open']    = 'Open all panels';
 $lang['sandbox.menu.accordion.close']   = 'Close all panels';
 
@@ -71,13 +71,13 @@ $lang['sandbox.menu.tabs.title']  = 'Tabs menu';
 
 // Wizard
 $lang['sandbox.menu.wizard.title']  = 'Wizard menu';
-$lang['sandbox.menu.last.step']  = 'Panneau final';
+$lang['sandbox.menu.last.step']     = 'Panneau final';
 
 $lang['sandbox.menu.title.html']  = 'HTML markup';
 $lang['sandbox.menu.title.form']  = 'PHP form markup';
 
-$lang['sandbox.menu.panel']  = 'Panel';
-$lang['sandbox.menu.panel.title']  = 'Panel title';
-$lang['sandbox.menu.panel.subtitle']  = 'Sub title';
-$lang['sandbox.menu.panel.input']  = 'Text field';
+$lang['sandbox.menu.panel']          = 'Panel';
+$lang['sandbox.menu.panel.title']    = 'Panel title';
+$lang['sandbox.menu.panel.subtitle'] = 'Sub title';
+$lang['sandbox.menu.panel.input']    = 'Text field';
 ?>

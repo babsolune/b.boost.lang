@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright   &copy; 2005-2022 PHPBoost
+ * @copyright   &copy; 2005-2023 PHPBoost
  * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      Julien BRISWALTER <j1.seth@phpboost.com>
  * @version     PHPBoost 6.0 - last update: 2021 12 01
@@ -54,15 +54,15 @@ $lang['sandbox.cssmenu.warning'] = '
 
 // Links
 $lang['sandbox.menu.management'] = 'Gestion des menus';
-$lang['sandbox.menu.link.icon'] = 'Item avec icône';
-$lang['sandbox.menu.link.img']  = 'Item avec image';
-$lang['sandbox.menu.link']      = 'Item de Liste';
-$lang['sandbox.menu.panel']     = 'Panneau';
+$lang['sandbox.menu.link.icon']  = 'Item avec icône';
+$lang['sandbox.menu.link.img']   = 'Item avec image';
+$lang['sandbox.menu.link']       = 'Item de Liste';
+$lang['sandbox.menu.panel']      = 'Panneau';
 // Basic
 $lang['sandbox.menu.basic'] = 'Menu de liens';
 // Accordion
 $lang['sandbox.menu.accordion.title']   = 'Menu Accordéon';
-$lang['sandbox.menu.accordion.options'] = 'Changez la classe css <code class="language-css">basic</code> en <code class="language-css">siblings</code> pour modifier le comportement d\'ouverture des panneaux et ainsi fermer un panneau ouvert lorsque vous en ouvrez un autre';
+$lang['sandbox.menu.accordion.options'] = 'Changez la classe css <code class="precode">multiple-accordion</code> en <code class="precode">single-accordion</code> pour modifier le comportement d\'ouverture des panneaux et ainsi fermer un panneau ouvert lorsque vous en ouvrez un autre.';
 $lang['sandbox.menu.accordion.open']    = 'Ouvrir tous les panneaux';
 $lang['sandbox.menu.accordion.close']   = 'Fermer tous les panneaux';
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright   &copy; 2005-2022 PHPBoost
+ * @copyright   &copy; 2005-2023 PHPBoost
  * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      Patrick DUBEAU <daaxwizeman@gmail.com>
  * @version     PHPBoost 6.0 - last update: 2021 03 11
@@ -15,9 +15,9 @@
 #####################################################
 
 $lang['articles.table.of.contents'] = 'Table of contents:';
-$lang['articles.print.item'] = 'Print an article';
+$lang['articles.print.item']        = 'Print an article';
 
 // Form
-$lang['articles.add.page'] = 'Insert a page';
+$lang['articles.add.page']       = 'Insert a page';
 $lang['articles.add.page.title'] = 'New page title';
 ?>

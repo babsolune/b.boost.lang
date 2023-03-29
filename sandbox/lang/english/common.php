@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright   &copy; 2005-2022 PHPBoost
+ * @copyright   &copy; 2005-2023 PHPBoost
  * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      Julien BRISWALTER <j1.seth@phpboost.com>
  * @version     PHPBoost 6.0 - last update: 2022 01 23
@@ -35,8 +35,8 @@ $lang['sandbox.lang']          = 'Languages';
 
 $lang['sandbox.phpboost.doc'] = 'PHPBoost documentation';
 
-$lang['sandbox.pinned.php']    = '<span class ="pinned moderator smallest" data-tooltip-pos ="top" aria-label ="This element can be added by php"><i class    ="fa fa-fw fa-terminal" aria-hidden ="true"></i></span>';
-$lang['sandbox.pinned.bbcode'] = '<span class ="pinned member smallest" data-tooltip-pos    ="top" aria-label ="This element can be added by bbcode"><i class ="fa fa-fw fa-code" aria-hidden     ="true"></i></span>';
+$lang['sandbox.pinned.php']    = '<span class="pinned moderator smallest" data-tooltip-pos="top" aria-label="This element can be added by php"><i class="fa fa-fw fa-terminal" aria-hidden="true"></i></span>';
+$lang['sandbox.pinned.bbcode'] = '<span class="pinned member smallest" data-tooltip-pos="top" aria-label="This element can be added by bbcode"><i class="fa fa-fw fa-code" aria-hidden="true"></i></span>';
 
 // Home page
 $lang['sandbox.welcome.message'] = '
