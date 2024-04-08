@@ -1,9 +1,9 @@
 <?php
 /**
- * @copyright   &copy; 2005-2023 PHPBoost
+ * @copyright   &copy; 2005-2024 PHPBoost
  * @license     https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL-3.0
  * @author      Patrick DUBEAU <daaxwizeman@gmail.com>
- * @version     PHPBoost 6.0 - last update: 2021 07 31
+ * @version     PHPBoost 6.0 - last update: 2023 07 16
  * @since       PHPBoost 4.0 - 2013 02 27
  * @contributor Julien BRISWALTER <j1.seth@phpboost.com>
  * @contributor Arnaud GENET <elenwii@phpboost.com>
@@ -14,7 +14,7 @@
 #                       English                     #
 #####################################################
 
-$lang['categories'] = $lang['items'] = array();
+$lang['categories'] = $lang['items'] = [];
 
 $lang['categories'][] = array(
 	'category.name'        => 'First category',
